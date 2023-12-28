@@ -110,7 +110,32 @@ Tidak ada *missing value* pada data hasil gabungan antara rating dan movie berda
 
 
 # Modeling and Result
-Proses modeling pada proyek ini menggunakan 2 algoritma yaitu *Content Based Filtering* dan *Collaborative Filtering*. Untuk *Content Based Filtering* merekomendasikan item yang mirip dengan item yang disukai pengguna di masa lalu dan *Collaborative Filtering* dengan memanfaatkan pada tingkat rating dari movie tersebut. 
+Proses modeling pada proyek ini menggunakan 2 algoritma yaitu *Content Based Filtering* dan *Collaborative Filtering*. Untuk *Content Based Filtering* merekomendasikan item yang mirip dengan item yang disukai pengguna di masa lalu dan *Collaborative Filtering* dengan memanfaatkan pada tingkat rating dari movie tersebut.
+
+## *Content Based Filtering*
+Content-Based Filtering adalah metode rekomendasi yang menggunakan karakteristik atau "konten" dari item untuk merekomendasikan item lain yang memiliki kesamaan karakteristik. Dalam konteks rekomendasi film, ini berarti merekomendasikan film berdasarkan fitur-fitur atau konten tertentu dari film tersebut, seperti genre, aktor, sutradara, atau topik.
+
+![image](https://github.com/farhanriyandi/Sistem-Rekomendasi/assets/67671418/2a64862e-ce05-4a83-90cf-f93ef3cb3261)
+
+**Kelebihan**
+1. Personalisasi:
+   * Menawarkan rekomendasi yang disesuaikan dengan preferensi individual pengguna berdasarkan karakteristik yang disukai oleh pengguna.
+
+2. Transparansi:
+   * Lebih mudah dipahami mengapa suatu item direkomendasikan karena menggunakan informasi tentang fitur-fitur atau konten item tersebut.
+
+3. Tidak Memerlukan Data Eksternal:
+   * Tidak terlalu tergantung pada data eksternal atau preferensi pengguna lainnya. Dapat bekerja dengan baik bahkan jika data riwayat pengguna terbatas
+
+**Kelemahan**
+1. Keterbatasan Diversitas:
+   * Cenderung merekomendasikan item yang serupa dengan yang sudah disukai oleh pengguna, sehingga mungkin kurang efektif dalam mengenalkan pengguna pada item   baru atau berbeda.
+
+2. Ketergantungan pada Representasi Konten:
+   * Keberhasilan sistem sangat tergantung pada seberapa baik representasi konten dari item dapat diukur atau diidentifikasi.
+
+3. Kesenjangan Informasi:
+   * Dapat mengalami kesulitan jika terdapat sedikit informasi atau variasi dalam fitur-fitur yang digunakan untuk merepresentasikan item.
 
 ### Hasil dari *Content Based Filtering*:
 Berikut adalah movie yang disukai pengguna dimasa lalu:
