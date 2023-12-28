@@ -135,7 +135,7 @@ Content-Based Filtering adalah metode rekomendasi yang menggunakan karakteristik
 3. Kesenjangan Informasi:
    * Dapat mengalami kesulitan jika terdapat sedikit informasi atau variasi dalam fitur-fitur yang digunakan untuk merepresentasikan item.
 
-### Tahapan dari untuk melakukan pemodelan *Content Based Filtering*
+### Tahapan untuk melakukan pemodelan *Content Based Filtering*
 1. Menyiapkan data yang sudah disiapkan pada data *preparation*
    
 2. TF-IDF Vectorizer
@@ -151,7 +151,7 @@ Content-Based Filtering adalah metode rekomendasi yang menggunakan karakteristik
 
 ![image](https://github.com/farhanriyandi/Sistem-Rekomendasi/assets/67671418/0ee530f2-5930-48ec-990e-456d4fbd7321)
 
-4. Mendapatkan Rekomendasi
+4. Mendapatkan Rekomendasi dari model *Content Based Filtering*:
    
 Berikut adalah movie yang disukai pengguna dimasa lalu:
 
@@ -197,10 +197,54 @@ Collaborative Filtering adalah metode rekomendasi yang menggunakan informasi dar
 3. Sparsity Problem:
    * Dalam dataset besar, mungkin ada banyak item atau pengguna yang tidak memiliki cukup data untuk membangun model yang akurat.
 
-### Hasil dari *Collaborative Filtering*:
-Berikut adalah rekomendasi movie berdasarkan rating:
+### Tahapan untuk melakukan pemodelan *Collaborative Filtering*
+1. Data Understanding
+   Pada tahap awal meng-*import library* yang dibutuhkan, kemudian membaca dataset rating yang telah digunakan sebelumnya.
+   
+2. Data Preparation
+   Pada tahap ini, menyandikan (encode) fitur ‘userId’ dan ‘movieId’ ke dalam indeks integer. Berikutnya memetakan userId dan placeId ke dataframe yang berkaitan.
 
-![image](https://github.com/farhanriyandi/Sistem-Rekomendasi/assets/67671418/f7d3cbf8-d1d9-4933-99bd-d221b7f501f8)
+3. Dataset *Splitting*
+   Data *train* digunakan untuk melatih model. Saat proses pelatihan, model belajar dari pola-pola dalam data *train* untuk memahami hubungan antara fitur 
+   (variabel independen) dan variabel target (variabel dependen). data val digunakan untuk mengevaluasi kinerja model. Model diuji pada data yang tidak pernah 
+   dilihat selama proses pelatihan untuk mengukur seberapa baik model tersebut mampu menggeneralisasi pada data baru. Dalam proyek ini data dibagi menjadi 80:20.
+   Hasil dari pembagian data *train* dan data val dengan rasio 80:20 adakah sebagai berikut:
+     * Total data keseluruhan 100836
+     * Total data latih 80668
+     * Total data uji 20168
+
+Dikarenakan dataset sudah besar yakni 100836, pembagian rasio data latih dan data uji 80:20 pada data uji sudah memiliki cukup banyak data untuk menguji model memiliki kinerja yang baik atau tidak.
+
+4. Proses *Training*
+   Pelatihan model melibatkan penerapan teknik embedding untuk mengukur kesesuaian antara film dan pengguna. Pada tahap kompilasi, digunakan BinaryCrossentropy       sebagai fungsi kerugian, Optimizer Adam (Adaptive Moment Estimation), dan Root Mean Squared Error (RMSE) sebagai evaluasi metrik. Proses pelatihan model           berlangsung sebanyak 10 epochs dengan penggunaan batch size 64.
+
+5. Mendapatkan rekomendasi dari model *Collaborative Filtering*:
+Berikut adalah rekomendasi movie berdasarkan rating untuk *users* 42
+
+Film dengan rating tinggi dari pengguna 42
+| Title                     | Genre                    |
+|---------------------------|--------------------------|
+| A Time to Kill (1996)     | Drama,Thriller           |
+| The Doors (1991)          | Drama                    |
+| Top Gun (1986)            | Action,Romance           |
+| On Golden Pond (1981)     | Drama                    |
+| Saving Private Ryan (1998)| Action,Drama,War         |
+
+Berikut ada 10 top rekomendasi Film
+| Title                                            | Genre                                |
+|--------------------------------------------------|--------------------------------------|
+| Rear Window (1954)                               | Mystery,Thriller                     |
+| Cinema Paradiso (Nuovo cinema Paradiso) (1989)   | Drama                                |
+| Cool Hand Luke (1967)                            | Drama                                |
+| This Is Spinal Tap (1984)                        | Comedy                               |
+| Sweet Hereafter, The (1997)                      | Drama                                |
+| Zero Effect (1998)                               | Comedy,Mystery,Thriller              |
+| Boondock Saints, The (2000)                      | Action,Crime,Drama,Thriller          |
+| Lord of the Rings: The Two Towers, The (2002)    | Adventure,Fantasy                    |
+| Departed, The (2006)                             | Crime,Drama,Thriller                 |
+| Dark Knight, The (2008)                          | Action|Crime|Drama|IMAX              |
+
+
 
 Diatas adalah hasil dari top 10 rekomendasi movies dimana genre Mystery|Thriller, Drama, Comedy, Adventure|Fantasy menjadi rekomendasi movie kepada pengguna tersebut.
 
