@@ -53,6 +53,36 @@ variabel-variabel pada movie-recommendation-data adalah sebagai berikut:
 * movieId: Merupakan identifikasi unik untuk setiap film dalam dataset, yang berkorelasi dengan kolom movieId pada dataset movies.csv.
 * timestamp: Menunjukkan waktu atau penanda waktu ketika pengguna memberikan rating atau interaksi terhadap suatu film.
 
+## Exploratory Data Analysis
+### Univariate Exploratory Data Analysis
+**Movie Variable**
+
+![image](https://github.com/farhanriyandi/Sistem-Rekomendasi/assets/67671418/d67163d7-c401-4379-9e53-fc8c9b4e9966)
+
+Terdapat 9742 baris data dan tidak adanya *missing value*
+
+![image](https://github.com/farhanriyandi/Sistem-Rekomendasi/assets/67671418/e43fa19e-696e-4be0-be38-47e32383a87b)
+
+Banyak tipe genre adalah 951 
+
+**Rating Variable**
+
+![image](https://github.com/farhanriyandi/Sistem-Rekomendasi/assets/67671418/0a832de7-c033-4814-a756-66a7b750661b)
+
+Terdapat 100836 baris data dan tidak adanya *missing value*
+
+![image](https://github.com/farhanriyandi/Sistem-Rekomendasi/assets/67671418/04baf7fe-51ea-4e3d-bd39-dc76a44de8e5)
+
+Dari output di atas, diketahui bahwa nilai maksimum rating adalah 5 dan nilai minimumnya adalah 0.5. Artinya, skala rating berkisar antara 0.5 hingga 5.
+
+![image](https://github.com/farhanriyandi/Sistem-Rekomendasi/assets/67671418/57215e3a-682e-4e29-bfa9-c0fa8f482f93)
+
+Pengguna yang memberikan rating 610, jumlah movie 9724, dan jumlah rating adalah 100836
+
+
+
+
+
 # Data Preparation
 *  Mengurutkan movie berdasarkan movieID kemudian memasukkannya ke dalam variabel fix_movie
 *  Membuat variabel preparation yang berisi dataframe fix_movie kemudian mengurutkan berdasarkan movieId
