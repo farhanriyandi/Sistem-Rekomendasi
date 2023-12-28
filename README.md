@@ -161,16 +161,16 @@ Dari gambar diatas pengguna menyukai film Lover Come Back (1961)	dari genre Come
 
 | Title                                    | Genres         |
 |------------------------------------------|----------------|
-| Shall We Dance? (2004)                   | Comedy|Romance |
-| The Importance of Being Earnest (1952)   | Comedy|Romance |
-| Good Luck Chuck (2007)                   | Comedy|Romance |
-| Mo' Money (1992)                         | Comedy|Romance |
-| Mr. Deeds (2002)                         | Comedy|Romance |
-| Kiss me Kismet (2006)                    | Comedy|Romance |
-| When Harry Met Sally... (1989)           | Comedy|Romance |
-| Better Off Dead... (1985)                | Comedy|Romance |
-| Impromptu (1991)                         | Comedy|Romance |
-| 27 Dresses (2008)                        | Comedy|Romance |
+| Shall We Dance? (2004)                   | Comedy,Romance |
+| The Importance of Being Earnest (1952)   | Comedy,Romance |
+| Good Luck Chuck (2007)                   | Comedy,Romance |
+| Mo' Money (1992)                         | Comedy,Romance |
+| Mr. Deeds (2002)                         | Comedy,Romance |
+| Kiss me Kismet (2006)                    | Comedy,Romance |
+| When Harry Met Sally... (1989)           | Comedy,Romance |
+| Better Off Dead... (1985)                | Comedy,Romance |
+| Impromptu (1991)                         | Comedy,Romance |
+| 27 Dresses (2008)                        | Comedy,Romance |
 
 dari hasil di atas dapat dilihat bahwa movie yang bergenre antar Comedy, Romance direkomendasikan oleh sistem karena berdasarkan kesukaan pengguna dimasa lalu.
 
