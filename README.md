@@ -137,18 +137,22 @@ Content-Based Filtering adalah metode rekomendasi yang menggunakan karakteristik
 
 ### Tahapan dari untuk melakukan pemodelan *Content Based Filtering*
 1. Menyiapkan data yang sudah disiapkan pada data *preparation*
+   
 2. TF-IDF Vectorizer
+   
    Teknik TF-IDF Vectorizer digunakan pada sistem rekomendasi pada proyek ini untuk menemukan representasi fitur penting dari setiap genre. mari kita lihat     
    matriks tf-idf untuk beberapa title dan kategori genre film.
    
    ![image](https://github.com/farhanriyandi/Sistem-Rekomendasi/assets/67671418/340ed156-e05b-43dd-9d1d-b1e0859bac01)
 
-4. Perhitungan *Cosine Similarity*
+3. Perhitungan *Cosine Similarity*
+   
    Dengan teknik *Cosine Similarity* menghitung derajat kesamaan (similarity degree) antar film. Kalkulasi similarity dilakukan dengan function [cosine_similarity](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.pairwise.cosine_similarity.html) pada *library* sklearn. Cosine similarity mengukur kesamaan antara dua vektor dan menentukan apakah kedua vektor tersebut menunjuk ke arah yang sama. Ia menghitung sudut cosinus antara dua vektor. Semakin kecil sudut cosinus, semakin besar nilai *cosine similarity*. Hasil dari perhitungan cosine similarity akan menghasilkan matriks kesamaan yang dapat divisualisasikan melalui konversi ke bentuk dataframe seperti berikut:
 
 ![image](https://github.com/farhanriyandi/Sistem-Rekomendasi/assets/67671418/0ee530f2-5930-48ec-990e-456d4fbd7321)
 
-5. Mendapatkan Rekomendasi
+4. Mendapatkan Rekomendasi
+   
 Hasil dari *Content Based Filtering*:
 Berikut adalah movie yang disukai pengguna dimasa lalu:
 
