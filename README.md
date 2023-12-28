@@ -79,7 +79,22 @@ Dari output di atas, diketahui bahwa nilai maksimum rating adalah 5 dan nilai mi
 
 Pengguna yang memberikan rating 610, jumlah movie 9724, dan jumlah rating adalah 100836
 
+## Data Preprocessing
+### Menggabungkan data rating dan movie berdasarkan movieId
 
+![image](https://github.com/farhanriyandi/Sistem-Rekomendasi/assets/67671418/35496334-d05b-49dd-bb52-c00b9d385e8e)
+
+### Mengecek missing value pada data hasil gabungan antara rating dan movie berdasarkan movieId
+| Fitur      | Jumlah Missing Value |
+|------------|-----------------------|
+| userId     | 0                     |
+| movieId    | 0                     |
+| rating     | 0                     |
+| timestamp  | 0                     |
+| title      | 0                     |
+| genres     | 0                     |
+
+Tidak ada *missing value* pada data hasil gabungan antara rating dan movie berdasarkan movieId
 
 
 
