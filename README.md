@@ -99,6 +99,13 @@ Tidak ada *missing value* pada data hasil gabungan antara rating dan movie berda
 
 
 # Data Preparation
+1. Mengurutkan movie berdasarkan movieID dari terkecil ke terbesar kemudian memasukkannya ke dalam variabel fix_movie
+2. Membuat variabel preparation yang berisi dataframe fix_movie kemudian membuang data duplikat pada variabel preparation berdasarkan movieId
+     * Sebelum membuang data yang duplikat pada variabel preparation berdasarkan movieId ada 100836 baris dan 6 kolom
+     * Setelah membuang data yang duplikat pada variabel preparation berdasarkan movieId ada 9724 baris dan 6 kolom
+3. Mengonversi data series movieId, title, genres dalam bentuk list adapun jumlah data adalah 9724
+4. Membuat dictionary untuk data ‘movie_id’, ‘title’, dan ‘genres’ pada variabel movie_new
+
 *  Mengurutkan movie berdasarkan movieID kemudian memasukkannya ke dalam variabel fix_movie
 *  Membuat variabel preparation yang berisi dataframe fix_movie kemudian mengurutkan berdasarkan movieId
 *  Membuang data duplikat pada variabel preparation
