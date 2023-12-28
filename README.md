@@ -15,23 +15,25 @@ Salah satu keunggulan utama sistem rekomendasi adalah kemampuannya untuk memaham
 
 Keefektifan sistem rekomendasi juga terletak pada kemampuannya untuk memberikan saran yang tidak hanya didasarkan pada sejarah penonton, tetapi juga mempertimbangkan tren dan reaksi pengguna lainnya. Dengan memanfaatkan kecerdasan buatan dan algoritma pemrosesan data, sistem ini dapat memprediksi apa yang mungkin disukai oleh sekelompok penonton dengan preferensi serupa. Ini membantu menciptakan pengalaman menonton yang lebih memuaskan dan memperkaya portofolio film yang dinikmati oleh penonton.
 
-Dengan kata lain, sistem rekomendasi bukan hanya alat praktis untuk mencari tahu film-film yang mungkin disukai oleh penonton, tetapi juga merupakan teman setia yang membantu menjelajahi dunia hiburan dengan cara yang lebih efisien dan memuaskan. Melalui pendekatan yang personal dan adaptif, sistem ini membantu menciptakan pengalaman menonton yang lebih kaya dan terhubung, membuktikan dirinya sebagai salah satu solusi utama dalam mendapatkan informasi yang relevan tentang film.
-
 # Business Understanding
+Berdasarkan kondisi yang telah diuraikan sebelumnya, kemajuan teknologi di bidang machine learning memainkan peran krusial dalam memahami dan meramalkan tingkah laku pengguna. machine learning dapat memberikan sistem rekomendasi film kepada pengguna, membuka peluang untuk strategi bisnis yang lebih cerdas dengan mengembangkan sebuah sistem rekomendasi film.
 
 ## Problem Statement
-* Bagaimana cara membangun suatu sistem rekomendasi film yang dapat menyesuaikan diri dengan preferensi, minat atau perilaku pengguna?
-* Bagaimana kinerja dan evaluasi model dalam pengembangan sistem rekomendasi film yang dapat menyesuaikan diri dengan preferensi, minat atau perilaku pengguna?
-
+* Bagaimana menghasilkan top rekomendasi film kepada pengguna?
+* Berdasarkan film yang disukai pengguna di masa lalu, Bagaimana cara membuat daftar rekomendasi film dengan metode pendekatan *content based filtering*?
+* Berdasarkan kesamaan antar pengguna, Bagaimana cara membuat daftar rekomendasi film dengan metode pendekatan *collaborative filtering*?
+* Bagaimana kinerja dan evaluasi model dalam pengembangan sistem rekomendasi content based filtering menggunakan *precision* dan *collaborative filtering* menggunakan *root mean square error*?
 
 ## Goals
-* Mengetahui cara membangun suatu sistem rekomendasi film yang dapat menyesuaikan diri dengan preferensi, minat atau perilaku pengguna
-* Mengetahi kinerja dan evaluasi model dalam pengembangan sistem rekomendasi film yang dapat menyesuaikan diri dengan preferensi, minat atau perilaku pengguna
+* Menampilkan top rekomendasi film kepada pengguna.
+* Menghasilkan rekomendasi film berdasarkan film yang disukai pengguna menggunakan pendekatan *content based filtering*.
+* Menghasilkan rekomendasi film berdasarkan film yang disukai pengguna menggunakan pendekatan *collaborative filtering*.
+* Mengetahi kinerja dan evaluasi model dalam pengembangan sistem rekomendasi film *content based filtering* menggunakan *precision* dan *collaborative filtering* menggunakan *root mean square error*.
 
 ## Solution Statement
-Solusi yang dibuat dapat menggunakan 2 algoritma yaitu:
-* Content Based Filtering: Merekomendasikan item yang mirip dengan item yang disukai pengguna di masa lalu.
-* Collaborative Filtering: Bergantung pada pendapat komunitas pengguna. Collaborative Filtering tidak membutuhkan atribut khusus untuk setiap item, berbeda dengan sistem yang berbasis konten.
+* Melakukan ekplorasi pada data, dan melakukan visualisasi data agar memahami data dan memberikan wawasan tentang data.
+* Melakukan data *preparation* agar dapat digunakan dalam membangun model.
+* Membangun model dengan *content based filtering* dan melakukan evaluasi menggunakan *precision* dan membangun model dengan *collaborative filtering* menggunakan *root mean square error*.
 
 # Data Understanding
 Dataset yang digunakan dalam proyek ini adalah dataset **Movie Recommender System Dataset** yang didapat dari situs kaggle. Berikut adalah link dataset:
