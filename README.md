@@ -5,17 +5,20 @@
 ## Project Overview
 
 ### Latar Belakang
-Peningkatan jumlah penonton di bioskop sejalan dengan pertumbuhan produksi film yang semakin banyak. Ragam film dengan berbagai alur cerita dan genre baik dari dalam negeri maupun luar negeri, memeriahkan industri perfilman. Namun, melimpahnya produksi film membuat calon penonton kewalahan dan mengalami kesulitan dalam memilih film untuk ditonton. Proses pencarian film menjadi lebih memakan waktu, dan beberapa orang menggunakan fitur pencarian di situs-situs tertentu untuk membantu mereka dalam membuat keputusan. Karena setiap orang memiliki selera yang berbeda, mereka cenderung memilih film yang serupa dengan yang mereka sukai. Salah satu solusi untuk mendapatkan informasi yang relevan mengenai film adalah melalui penggunaan sistem rekomendasi [1].
+Pasar industri perfilman, baik di tingkat internasional maupun domestik, terus mengalami pertumbuhan yang menjanjikan. Hal ini dapat dilihat dari peningkatan jumlah penonton bioskop setiap tahun. Pada tahun 2018, misalnya, jumlah penonton bioskop di Indonesia sendiri telah mencapai lebih dari 50 juta orang. Sementara itu, produksi film, termasuk baik dari luar negeri maupun dalam negeri, mencapai hampir 200 judul film yang telah tayang di seluruh Indonesia[1].
+
+Peningkatan jumlah penonton di bioskop sejalan dengan pertumbuhan produksi film yang semakin banyak. Ragam film dengan berbagai alur cerita dan genre baik dari dalam negeri maupun luar negeri, memeriahkan industri perfilman. Namun, melimpahnya produksi film membuat calon penonton kewalahan dan mengalami kesulitan dalam memilih film untuk ditonton. Proses pencarian film menjadi lebih memakan waktu, dan beberapa orang menggunakan fitur pencarian di situs-situs tertentu untuk membantu mereka dalam membuat keputusan. Karena setiap orang memiliki selera yang berbeda, mereka cenderung memilih film yang serupa dengan yang mereka sukai[2]. Karena itu, tujuan dari proyek *machine learning* ini adalah mengembangkan sebuah model machine learning yang dapat digunakan dalam sistem rekomendasi film. Model ini akan memperhitungkan rating yang telah diberikan oleh pengguna pada film-film sebelumnya untuk memberikan rekomendasi yang sesuai kepada pengguna.
 
 # Business Understanding
 
 ## Problem Statement
-
-* Bagaimana cara membuat rekomendasi film yang akurat agar pengguna tidak memakan waktu banyak dalam mencari film?
+* Bagaimana cara membangun suatu sistem rekomendasi film yang dapat menyesuaikan diri dengan minat atau perilaku pengguna?
+* Bagaimana kinerja dan evaluasi model dalam pengembangan sistem rekomendasi film yang dapat menyesuaikan diri dengan minat atau perilaku pengguna?
 
 
 ## Goals
-* Membuat sistem rekomendasi film yang akurat agar pengguna tidak memakan waktu banyak dalam mencari film
+* Mengetahui cara membangun suatu sistem rekomendasi film yang dapat menyesuaikan diri dengan minat atau perilaku pengguna
+* Mengetahi kinerja dan evaluasi model dalam pengembangan sistem rekomendasi film yang dapat menyesuaikan diri dengan minat atau perilaku pengguna
 
 ## Solution Statement
 Solusi yang dibuat dapat menggunakan 2 algoritma yaitu:
@@ -116,4 +119,5 @@ Berikut adalah visualisasi metrik dari evaluasi model *collaborative Filtering*:
 
 
 # Referensi
-[1] Fajriansyah, M., Adikara, P. P., & Widodo, A. W. (2021). "Sistem Rekomendasi Film Menggunakan Content Based Filtering." Jurnal Pengembangan Teknologi Informasi dan Ilmu Komputer, 5(6), 2188-2199.
+[1]"Tren Positif Film Indonesia," Indonesia.go.id. [Online]. Available: https://indonesia.go.id/ragam/seni/sosial/tren-positif-film-indonesia. [Accessed: 28-Aug-2020].
+[2] Fajriansyah, M., Adikara, P. P., & Widodo, A. W. (2021). "Sistem Rekomendasi Film Menggunakan Content Based Filtering." Jurnal Pengembangan Teknologi Informasi dan Ilmu Komputer, 5(6), 2188-2199.
