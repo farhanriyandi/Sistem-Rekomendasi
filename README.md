@@ -283,8 +283,15 @@ sistem merekomendasikan Top 10 movies yaitu:
 | Impromptu (1991)                         | Comedy,Romance |
 | 27 Dresses (2008)                        | Comedy,Romance |
 
-Dari hasil rekomendasi di atas, diketahui bahwa Lover Come Back (1961) termasuk ke dalam genre Comedy|Romance. Dari 10 item yang direkomendasikan, 10 item memiliki genre Comedy|Romance. Artinya, precision dari sistem tersebut adalah 10/10 atau 100%.
+Dari hasil rekomendasi di atas, diketahui bahwa Lover Come Back (1961) termasuk ke dalam genre Comedy|Romance. Dari 10 item yang direkomendasikan, 10 item memiliki genre Comedy|Romance. Artinya, precision dari sistem tersebut adalah 
 
+Precision = 10/10
+
+Precision = 1
+
+Precision = 100%
+
+Berdasarkan Top 10 rekomendasi film yang diberikan didapatkan pricision sebesar 100% dari model content-based filtering untuk sistem rekomendasi yang telah dikembangkan
 
 ### Hasil Evaluasi untuk *Collaborative Filtering*
 Evaluasi metrik yang digunakan untuk mengukur kinerja model *Collaborative Filtering* adalah metrik RMSE (Root Mean Squared Error). RMSE adalah metode evaluasi yang mengukur perbedaan antara nilai prediksi sebuah model dengan nilai yang sebenarnya sebagai estimasi atas pengamatan yang dilakukan. RMSE diperoleh dengan mengakarkan hasil dari Mean Square Error. Tingkat keakuratan suatu metode estimasi kesalahan pengukuran dapat diidentifikasi melalui nilai RMSE yang kecil. Metode estimasi dengan RMSE yang lebih rendah dianggap lebih akurat dibandingkan dengan metode yang memiliki RMSE yang lebih besar.
