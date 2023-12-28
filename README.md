@@ -318,6 +318,8 @@ Berikut adalah visualisasi metrik dari evaluasi model *collaborative Filtering*:
 
 ![image](https://github.com/farhanriyandi/Sistem-Rekomendasi/assets/67671418/faa7748a-4d64-4833-8ae6-9df8dcf14987)
 
+Berdasarkan visualisasi metrik diatas didapatkan RMSE: 0.1963 dan validasi RMSE: 0.2030, yang mana sistem telah dikembangkan sudah baik.
+
 # Conclusion
 
 
