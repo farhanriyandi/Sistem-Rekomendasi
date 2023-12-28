@@ -159,7 +159,18 @@ Berikut adalah movie yang disukai pengguna dimasa lalu:
 
 Dari gambar diatas pengguna menyukai film Lover Come Back (1961)	dari genre Comedy|Romance. Maka berikut hasil 10 rekomendasi movie kepada pengguna tersebut menggunakan *Content Based Filtering*
 
-![image](https://github.com/farhanriyandi/Sistem-Rekomendasi/assets/67671418/29bfb3e6-eae7-47ea-abf1-0b8c7bd8a89f)
+| Title                                    | Genres         |
+|------------------------------------------|----------------|
+| Shall We Dance? (2004)                   | Comedy|Romance |
+| The Importance of Being Earnest (1952)   | Comedy|Romance |
+| Good Luck Chuck (2007)                   | Comedy|Romance |
+| Mo' Money (1992)                         | Comedy|Romance |
+| Mr. Deeds (2002)                         | Comedy|Romance |
+| Kiss me Kismet (2006)                    | Comedy|Romance |
+| When Harry Met Sally... (1989)           | Comedy|Romance |
+| Better Off Dead... (1985)                | Comedy|Romance |
+| Impromptu (1991)                         | Comedy|Romance |
+| 27 Dresses (2008)                        | Comedy|Romance |
 
 dari hasil di atas dapat dilihat bahwa movie yang bergenre antar Comedy, Romance direkomendasikan oleh sistem karena berdasarkan kesukaan pengguna dimasa lalu.
 
