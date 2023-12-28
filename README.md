@@ -148,6 +148,29 @@ Dari gambar diatas pengguna menyukai film Lover Come Back (1961)	dari genre Come
 
 dari hasil di atas dapat dilihat bahwa movie yang bergenre antar Comedy, Romance direkomendasikan oleh sistem karena berdasarkan kesukaan pengguna dimasa lalu.
 
+## *Collaborative Filtering*
+Collaborative Filtering adalah metode rekomendasi yang menggunakan informasi dari pengguna lain (user) atau item yang serupa untuk merekomendasikan item kepada pengguna. Ide dasarnya adalah bahwa pengguna yang memiliki preferensi atau perilaku serupa dalam masa lalu cenderung memiliki preferensi serupa di masa depan. Dalam konteks rekomendasi film, Collaborative Filtering mengidentifikasi kemiripan antara pengguna atau item berdasarkan data historis pengguna.
+
+**Kelebihan**
+1. Personalisasi yang Tinggi:
+   * Mampu memberikan rekomendasi yang sangat personal karena mempertimbangkan preferensi dan perilaku pengguna secara langsung.
+
+2. Tidak Memerlukan Informasi Item:
+   * Tidak perlu informasi rinci tentang item (film) karena hanya membutuhkan pola hubungan antar-pengguna atau antar-item.
+
+3. Efektif untuk Data yang Besar:
+   * Dapat menghasilkan rekomendasi yang baik bahkan pada dataset besar dengan banyak item
+
+**Kelemahan**
+1. *Cold Start Problem*:
+   * Kesulitan memberikan rekomendasi untuk pengguna baru atau item baru yang belum memiliki data historis.
+
+2. Ketergantungan pada Data Historis:
+   * Bergantung pada data historis yang cukup untuk mengidentifikasi pola hubungan antar-pengguna atau antar-item.
+
+3. Sparsity Problem:
+   * Dalam dataset besar, mungkin ada banyak item atau pengguna yang tidak memiliki cukup data untuk membangun model yang akurat.
+
 ### Hasil dari *Collaborative Filtering*:
 Berikut adalah rekomendasi movie berdasarkan rating:
 
