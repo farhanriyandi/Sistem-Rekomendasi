@@ -153,7 +153,6 @@ Content-Based Filtering adalah metode rekomendasi yang menggunakan karakteristik
 
 4. Mendapatkan Rekomendasi
    
-Hasil dari *Content Based Filtering*:
 Berikut adalah movie yang disukai pengguna dimasa lalu:
 
 ![image](https://github.com/farhanriyandi/Sistem-Rekomendasi/assets/67671418/3f2c35ec-33c6-4f6a-912d-f4302f2f0711)
