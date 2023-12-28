@@ -270,7 +270,18 @@ Dapat dilihat bahwa rekomendasi movie yang mirip dari Lover Come Back (1961)
 
 sistem merekomendasikan Top 10 movies yaitu:
 
-![image](https://github.com/farhanriyandi/Sistem-Rekomendasi/assets/67671418/2bf2ef6f-770c-4bcf-af90-3281021ca4d9)
+| Title                                    | Genres         |
+|------------------------------------------|----------------|
+| Shall We Dance? (2004)                   | Comedy,Romance |
+| The Importance of Being Earnest (1952)   | Comedy,Romance |
+| Good Luck Chuck (2007)                   | Comedy,Romance |
+| Mo' Money (1992)                         | Comedy,Romance |
+| Mr. Deeds (2002)                         | Comedy,Romance |
+| Kiss me Kismet (2006)                    | Comedy,Romance |
+| When Harry Met Sally... (1989)           | Comedy,Romance |
+| Better Off Dead... (1985)                | Comedy,Romance |
+| Impromptu (1991)                         | Comedy,Romance |
+| 27 Dresses (2008)                        | Comedy,Romance |
 
 Dari hasil rekomendasi di atas, diketahui bahwa Lover Come Back (1961) termasuk ke dalam genre Comedy|Romance. Dari 10 item yang direkomendasikan, 10 item memiliki genre Comedy|Romance. Artinya, precision dari sistem tersebut adalah 10/10 atau 100%.
 
@@ -285,9 +296,9 @@ Evaluasi metrik yang digunakan untuk mengukur kinerja model *Collaborative Filte
 ![image](https://github.com/farhanriyandi/Sistem-Rekomendasi/assets/67671418/a2c52689-e846-4544-a739-63425d35c38b)
 
 Keterangan:
-At : Nilai Aktual.
-ft = Nilai hasil peramalan.
-N = banyaknya dataset
+* At : Nilai Aktual.
+* ft = Nilai hasil peramalan.
+* N = banyaknya dataset
 
 Berikut adalah visualisasi metrik dari evaluasi model *collaborative Filtering*:
 
