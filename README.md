@@ -23,7 +23,7 @@ Solusi yang dibuat dapat menggunakan 2 algoritma yaitu:
 * Collaborative Filtering
 
 # Data Understanding
-Dataset yang digunakan dalam proyek ini adalah dataset **Movie Recommender System Dataset** yang didapat dari situs kaggle. Berikut adalah link dataset: (Movie Recommender System Dataset)[https://www.kaggle.com/datasets/gargmanas/movierecommenderdataset]
+Dataset yang digunakan dalam proyek ini adalah dataset **Movie Recommender System Dataset** yang didapat dari situs kaggle. Berikut adalah link dataset: [Movie Recommender System Dataset](https://www.kaggle.com/datasets/gargmanas/movierecommenderdataset)
 
 # Data Preparation
 
