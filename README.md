@@ -250,6 +250,20 @@ Diatas adalah hasil dari top 10 rekomendasi movies dimana genre Mystery|Thriller
 
 # Evaluation
 ### Hasil Evaluasi untuk *Content Based Filtering*
+Evaluasi yang digunakan pada model *content based filtering* adalah precision. *Precision* adalah metrik evaluasi yang mengukur sejauh mana item yang diidentifikasi sebagai positif oleh model benar-benar relevan atau benar-benar positif. Presisi didefinisikan sebagai rasio antara jumlah item relevan yang diidentifikasi dengan benar dan total jumlah item yang diidentifikasi sebagai positif oleh model.
+
+**Kegunaan**:
+Presisi memberikan wawasan tentang tingkat ketepatan model dalam mengidentifikasi item yang benar-benar relevan dari total item yang dianggap positif. Metrik ini berguna terutama dalam konteks tugas klasifikasi di mana model harus membedakan antara kelas positif dan kelas negatif.
+
+**Intrepretasi**:
+* Tingkat presisi yang tinggi menunjukkan bahwa sebagian besar item yang diidentifikasi sebagai positif oleh model memang benar-benar positif.
+* Tingkat presisi yang rendah dapat menandakan adanya masalah, di mana sejumlah besar item yang diidentifikasi sebagai positif mungkin tidak relevan atau tidak 
+  benar-benar positif.
+
+Teknik evaluasi model tersebut menggunakan *precision* adapun rumus *presicion* adalah sebagai berikut:
+
+![image](https://github.com/farhanriyandi/Sistem-Rekomendasi/assets/67671418/9ef69612-f037-45d9-8d33-0f29e74587e0)
+
 Dapat dilihat bahwa rekomendasi movie yang mirip dari Lover Come Back (1961)
 
 ![image](https://github.com/farhanriyandi/Sistem-Rekomendasi/assets/67671418/29bded09-8c33-4c6d-b9ba-0a7595dc62dc)
@@ -259,9 +273,7 @@ sistem merekomendasikan Top 10 movies yaitu:
 ![image](https://github.com/farhanriyandi/Sistem-Rekomendasi/assets/67671418/2bf2ef6f-770c-4bcf-af90-3281021ca4d9)
 
 Dari hasil rekomendasi di atas, diketahui bahwa Lover Come Back (1961) termasuk ke dalam genre Comedy|Romance. Dari 10 item yang direkomendasikan, 10 item memiliki genre Comedy|Romance. Artinya, precision dari sistem tersebut adalah 10/10 atau 100%.
-Teknik evaluasi model tersebut menggunakan *precision* adapun rumus *presicion* adalah sebagai berikut:
 
-![image](https://github.com/farhanriyandi/Sistem-Rekomendasi/assets/67671418/9ef69612-f037-45d9-8d33-0f29e74587e0)
 
 ### Hasil Evaluasi untuk *Collaborative Filtering*
 Evaluasi metrik yang digunakan untuk mengukur kinerja model *Collaborative Filtering* adalah metrik RMSE (Root Mean Squared Error).
