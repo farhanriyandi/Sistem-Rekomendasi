@@ -21,70 +21,59 @@ import pandas as pd
 movie = pd.read_csv('/content/drive/MyDrive/Machine Learning Terapan/Sistem Rekomendasi/movies.csv')
 rating = pd.read_csv('/content/drive/MyDrive/Machine Learning Terapan/Sistem Rekomendasi/ratings.csv')
 
-"""# Movie Variabel"""
+movie.head()
+
+rating.head()
+
+"""# Univariate Exploratory Data Analysis
+
+### Movie Variable
+"""
 
 movie.info()
-
-movie.head()
 
 print('Banyak tipe genre: ', len(movie.genres.unique()))
 print('Tipe genre: ', movie.genres.unique())
 
-"""# Rating variabel"""
+"""### Rating Variabel"""
 
 rating.info()
 
-rating.head()
+rating.describe()
 
-movie.head()
+"""Dari output di atas, diketahui bahwa nilai maksimum rating adalah 5 dan nilai minimumnya adalah 0.5. Artinya, skala rating berkisar antara 0.5 hingga 5."""
 
-"""# Data Preprocessing"""
+print('Jumlah userId: ', len(rating.userId.unique()))
+print('Jumlah movieId: ', len(rating.movieId.unique()))
+print('Jumlah data rating: ', len(rating))
 
-import numpy as np
+"""Pengguna yang memberikan rating 610, jumlah movie 9724, dan jumlah rating adalah 100836
 
-# Menggabungkan Dataset
-all = np.concatenate((
-    movie.movieId.unique(),
-    rating.movieId.unique()
-))
+# Data Preprocessing
 
-# Mengurutkan data dan menghapus data yang sama
-all = np.sort(np.unique(all))
+# Menggabungkan Data
+"""
 
-print('Jumlah seluruh data movie berdasarkan movieId: ', len(all))
-
-"""# Menggabungkan Data"""
-
-# Menggabungkan dataframe rating dengan resto_info berdasarkan nilai placeID
+# Menggabungkan dataframe rating dengan movie berdasarkan nilai movieId
 movies = pd.merge(rating, movie, on='movieId', how='left')
-movies
+movies.head()
 
 movies.isnull().sum()
-
-# Menghitung jumlah rating kemudian menggabungkannya berdasarkan movieId
-movies.groupby('movieId').sum()
 
 movies.head()
 
 """# Data Preparation"""
 
-movies.isnull().sum()
-
-"""## Menyamakan Jenis Movie"""
-
 # Mengurutkan movie berdasarkan movieID kemudian memasukkannya ke dalam variabel fix_movie
 fix_movie = movies.sort_values('movieId', ascending=True)
-fix_movie
+fix_movie.head()
 
 # Mengecek berapa jumlah fix_movie
 len(fix_movie.movieId.unique())
 
-# Mengecek genre movie yang unik
-fix_movie.genres.unique()
-
-# Membuat variabel preparation yang berisi dataframe fix_movie kemudian mengurutkan berdasarkan movieId
+# Membuat variabel preparation yang berisi dataframe fix_movie
 preparation = fix_movie
-preparation.sort_values('movieId')
+preparation
 
 # Membuang data duplikat pada variabel preparation
 preparation = preparation.drop_duplicates('movieId')
@@ -156,7 +145,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 cosine_sim = cosine_similarity(tfidf_matrix)
 cosine_sim
 
-# Membuat dataframe dari variabel cosine_sim dengan baris dan kolom berupa nama resto
+# Membuat dataframe dari variabel cosine_sim dengan baris dan kolom berupa nama title
 cosine_sim_df = pd.DataFrame(cosine_sim, index=data['title'], columns=data['title'])
 print('Shape:', cosine_sim_df.shape)
 
@@ -183,7 +172,10 @@ data[data['title'] == 'Lover Come Back (1961)']
 # Mendapatkan rekomendasi movie yang mirip dengan Lover Come Back (1961)
 movie_recommendations('Lover Come Back (1961)')
 
-"""# Model Development dengan Collaborative Filtering"""
+"""# Model Development dengan Collaborative Filtering
+
+# Data Understanding
+"""
 
 # Import library
 import pandas as pd
@@ -206,11 +198,11 @@ df.head()
 user_ids = df['userId'].unique().tolist()
 print('list userId: ', user_ids)
 
-# Melakukan encoding userID
+# Melakukan encoding userId
 user_to_user_encoded = {x: i for i, x in enumerate(user_ids)}
 print('encoded userID : ', user_to_user_encoded)
 
-# Melakukan proses encoding angka ke ke userID
+# Melakukan proses encoding angka ke ke userId
 user_encoded_to_user = {i: x for i, x in enumerate(user_ids)}
 print('encoded angka ke userID: ', user_encoded_to_user)
 
@@ -274,6 +266,8 @@ x_train, x_val, y_train, y_val = (
 )
 
 print(x, y)
+
+x_train.shape, x_val.shape, y_train.shape, y_val.shape
 
 """# Proses Training"""
 
