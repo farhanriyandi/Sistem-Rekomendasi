@@ -290,6 +290,7 @@ Dari hasil rekomendasi di atas, diketahui bahwa Lover Come Back (1961) termasuk 
 Evaluasi metrik yang digunakan untuk mengukur kinerja model *Collaborative Filtering* adalah metrik RMSE (Root Mean Squared Error). RMSE adalah metode evaluasi yang mengukur perbedaan antara nilai prediksi sebuah model dengan nilai yang sebenarnya sebagai estimasi atas pengamatan yang dilakukan. RMSE diperoleh dengan mengakarkan hasil dari Mean Square Error. Tingkat keakuratan suatu metode estimasi kesalahan pengukuran dapat diidentifikasi melalui nilai RMSE yang kecil. Metode estimasi dengan RMSE yang lebih rendah dianggap lebih akurat dibandingkan dengan metode yang memiliki RMSE yang lebih besar.
 
 **Kegunaan RMSE**
+
 RMSE umumnya digunakan dalam konteks regresi untuk mengevaluasi seberapa baik model dapat menghasilkan prediksi yang mendekati nilai sebenarnya. Semakin kecil nilai RMSE, semakin baik model dapat memprediksi nilai aktual.
 
 **Interpretasi RMSE**
@@ -309,6 +310,8 @@ Keterangan:
 Berikut adalah visualisasi metrik dari evaluasi model *collaborative Filtering*:
 
 ![image](https://github.com/farhanriyandi/Sistem-Rekomendasi/assets/67671418/faa7748a-4d64-4833-8ae6-9df8dcf14987)
+
+# Conclusion
 
 
 # Referensi
