@@ -69,6 +69,7 @@ Berikut adalah movie yang disukai pengguna dimasa lalu:
 ![image](https://github.com/farhanriyandi/Sistem-Rekomendasi/assets/67671418/3f2c35ec-33c6-4f6a-912d-f4302f2f0711)
 
 Dari gambar diatas pengguna menyukai film Lover Come Back (1961)	dari genre Comedy|Romance. Maka berikut hasil 10 rekomendasi movie kepada pengguna tersebut menggunakan *Content Based Filtering*
+
 ![image](https://github.com/farhanriyandi/Sistem-Rekomendasi/assets/67671418/29bfb3e6-eae7-47ea-abf1-0b8c7bd8a89f)
 
 dari hasil di atas dapat dilihat bahwa movie yang bergenre antar Comedy, Romance direkomendasikan oleh sistem karena berdasarkan kesukaan pengguna dimasa lalu.
