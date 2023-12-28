@@ -47,7 +47,18 @@ print('Jumlah userId: ', len(rating.userId.unique()))
 print('Jumlah movieId: ', len(rating.movieId.unique()))
 print('Jumlah data rating: ', len(rating))
 
-"""Pengguna yang memberikan rating 610, jumlah movie 9724, dan jumlah rating adalah 100836
+"""Pengguna yang memberikan rating 610, jumlah movie 9724, dan jumlah rating adalah 100836"""
+
+import matplotlib.pyplot as plt
+
+# Movie's Average Ratings Distribution
+plt.hist(rating.rating, color='#B4E1FF', edgecolor='black')
+plt.ylabel('Total')
+plt.xlabel('Avg Rating')
+plt.title("Movie's Average Ratings Distribution")
+plt.show()
+
+"""Dapat dilihat bahwa sebagian besar rata-rata peringkat movie tersebar dari rating 3 sampai 5.
 
 # Data Preprocessing
 
@@ -67,6 +78,8 @@ movies.head()
 # Mengurutkan movie berdasarkan movieID kemudian memasukkannya ke dalam variabel fix_movie
 fix_movie = movies.sort_values('movieId', ascending=True)
 fix_movie.head()
+
+fix_movie.shape
 
 # Mengecek berapa jumlah fix_movie
 len(fix_movie.movieId.unique())
@@ -99,6 +112,8 @@ movie_new = pd.DataFrame({
     'genres': genres
 })
 movie_new
+
+movie_new.shape
 
 """# Model Development dengan Content Based Filtering"""
 
@@ -185,7 +200,6 @@ import tensorflow as tf
 from tensorflow import keras
 from tensorflow.keras import layers
 from pathlib import Path
-import matplotlib.pyplot as plt
 
 # Membaca dataset
 
