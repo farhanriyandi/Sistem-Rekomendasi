@@ -28,6 +28,7 @@ Dataset yang digunakan dalam proyek ini adalah dataset **Movie Recommender Syste
 variabel-variabel pada movie-recommendation-data adalah sebagai berikut:
 * Dataset memiliki format CSV (Comma-Seperated Values).
 * Memiliki 2 file csv yaitu: movies.csv, ratings.csv
+  
   Pada movies.csv:
     * Terdapat 9742 sampel dan 3 fitur
     * movies.csv memiliki 2 fitur bertipe object dan 1 fitur bertipe int64.
