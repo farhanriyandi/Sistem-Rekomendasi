@@ -96,6 +96,7 @@ Teknik evaluasi model tersebut menggunakan *precision* adapun rumus *presicion* 
 ![image](https://github.com/farhanriyandi/Sistem-Rekomendasi/assets/67671418/9ef69612-f037-45d9-8d33-0f29e74587e0)
 
 ### Hasil Evaluasi untuk *Collaborative Filtering*
+Evaluasi metrik yang digunakan untuk mengukur kinerja model *Collaborative Filtering* adalah metrik RMSE (Root Mean Squared Error).
 
 
 
