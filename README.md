@@ -24,7 +24,30 @@ Solusi yang dibuat dapat menggunakan 2 algoritma yaitu:
 
 # Data Understanding
 Dataset yang digunakan dalam proyek ini adalah dataset **Movie Recommender System Dataset** yang didapat dari situs kaggle. Berikut adalah link dataset:
-[Movie Recommender System](https://www.kaggle.com/datasets/gargmanas/movierecommenderdataset)
+[Movie Recommender System](https://www.kaggle.com/datasets/gargmanas/movierecommenderdataset).
+variabel-variabel pada movie-recommendation-data adalah sebagai berikut:
+* Dataset memiliki format CSV (Comma-Seperated Values).
+* Memiliki 2 file csv yaitu: movies.csv, ratings.csv
+  Pada movies.csv:
+    * Terdapat 9742 sampel dan 3 fitur
+    * movies.csv memiliki 2 fitur bertipe object dan 1 fitur bertipe int64.
+    * Tidak ada *missing value*
+
+  Pada ratings.csv:
+    * Terdapat 100836 sampel dan 4 fitur
+    * ratings.csv memiliki 1 fitur bertipe float64 dan 3 fitur bertipe int64
+    * Tidak ada *missing value*
+
+## Deskripsi Variabel
+**Variabel-variabel pada dataset movies.csv:**
+* movieId: Merupakan identifikasi unik untuk setiap film dalam dataset.
+* title: Merupakan judul dari film yang tercantum dalam dataset. Kolom ini berisi informasi mengenai nama atau judul dari masing-masing film.
+* genres: Menunjukkan genre atau kategori film.
+
+**Variabel-variabel pada dataset ratings.csv:**
+* userId: Merupakan identifikasi unik untuk setiap pengguna atau pemirsa dalam dataset.
+* movieId: Merupakan identifikasi unik untuk setiap film dalam dataset, yang berkorelasi dengan kolom movieId pada dataset movies.csv.
+* timestamp: Menunjukkan waktu atau penanda waktu ketika pengguna memberikan rating atau interaksi terhadap suatu film.
 
 # Data Preparation
 
