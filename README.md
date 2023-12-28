@@ -85,7 +85,14 @@ Dari output di atas, diketahui bahwa nilai maksimum rating adalah 5 dan nilai mi
 
 ![image](https://github.com/farhanriyandi/Sistem-Rekomendasi/assets/67671418/57215e3a-682e-4e29-bfa9-c0fa8f482f93)
 
-Pengguna yang memberikan rating 610, jumlah movie 9724, dan jumlah rating adalah 100836
+Pengguna yang memberikan rating 610, jumlah movie 9724, dan jumlah rating adalah 100836.
+
+### Analisis distribusi data rating pada movie
+
+![image](https://github.com/farhanriyandi/Sistem-Rekomendasi/assets/67671418/5cd97ea0-eff2-4e2a-ad3b-669283e9129a)
+
+Dapat dilihat bahwa sebagian besar rata-rata peringkat movie tersebar dari rating 3 sampai 5.
+
 
 ## Data Preprocessing
 ### Menggabungkan data rating dan movie berdasarkan movieId
