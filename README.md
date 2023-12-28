@@ -11,7 +11,7 @@ Peningkatan jumlah penonton di bioskop sejalan dengan pertumbuhan produksi film 
 
 ## Problem Statement
 
-* Bagaimana cara membuat rekomendasi film yang tepat agar pengguna tidak memakan waktu banyak dalam mencari film?
+* Bagaimana cara membuat rekomendasi film yang akurat agar pengguna tidak memakan waktu banyak dalam mencari film?
 
 
 ## Goals
