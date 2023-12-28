@@ -252,15 +252,15 @@ Diatas adalah hasil dari top 10 rekomendasi movies dimana genre Mystery|Thriller
 ### Hasil Evaluasi untuk *Content Based Filtering*
 Evaluasi yang digunakan pada model *content based filtering* adalah precision. *Precision* adalah metrik evaluasi yang mengukur sejauh mana item yang diidentifikasi sebagai positif oleh model benar-benar relevan atau benar-benar positif. Presisi didefinisikan sebagai rasio antara jumlah item relevan yang diidentifikasi dengan benar dan total jumlah item yang diidentifikasi sebagai positif oleh model.
 
-**Kegunaan**:
+**Kegunaan Precision**:
 Presisi memberikan wawasan tentang tingkat ketepatan model dalam mengidentifikasi item yang benar-benar relevan dari total item yang dianggap positif. Metrik ini berguna terutama dalam konteks tugas klasifikasi di mana model harus membedakan antara kelas positif dan kelas negatif.
 
-**Intrepretasi**:
+**Intrepretasi Precision**:
 * Tingkat presisi yang tinggi menunjukkan bahwa sebagian besar item yang diidentifikasi sebagai positif oleh model memang benar-benar positif.
 * Tingkat presisi yang rendah dapat menandakan adanya masalah, di mana sejumlah besar item yang diidentifikasi sebagai positif mungkin tidak relevan atau tidak 
   benar-benar positif.
 
-Teknik evaluasi model tersebut menggunakan *precision* adapun rumus *presicion* adalah sebagai berikut:
+Adapun rumus *presicion* adalah sebagai berikut:
 
 ![image](https://github.com/farhanriyandi/Sistem-Rekomendasi/assets/67671418/9ef69612-f037-45d9-8d33-0f29e74587e0)
 
@@ -287,11 +287,17 @@ Dari hasil rekomendasi di atas, diketahui bahwa Lover Come Back (1961) termasuk 
 
 
 ### Hasil Evaluasi untuk *Collaborative Filtering*
-Evaluasi metrik yang digunakan untuk mengukur kinerja model *Collaborative Filtering* adalah metrik RMSE (Root Mean Squared Error).
-* RMSE adalah metode evaluasi yang mengukur perbedaan antara nilai prediksi sebuah model dengan nilai yang sebenarnya sebagai estimasi atas pengamatan yang dilakukan. RMSE
-  diperoleh dengan mengakarkan hasil dari Mean Square Error. Tingkat keakuratan suatu metode estimasi kesalahan pengukuran dapat diidentifikasi melalui nilai RMSE yang
-  kecil. Metode estimasi dengan RMSE yang lebih rendah dianggap lebih akurat dibandingkan dengan metode yang memiliki RMSE yang lebih besar.
-* Formula dari metrik RMSE adalah sebagai berikut:
+Evaluasi metrik yang digunakan untuk mengukur kinerja model *Collaborative Filtering* adalah metrik RMSE (Root Mean Squared Error). RMSE adalah metode evaluasi yang mengukur perbedaan antara nilai prediksi sebuah model dengan nilai yang sebenarnya sebagai estimasi atas pengamatan yang dilakukan. RMSE diperoleh dengan mengakarkan hasil dari Mean Square Error. Tingkat keakuratan suatu metode estimasi kesalahan pengukuran dapat diidentifikasi melalui nilai RMSE yang kecil. Metode estimasi dengan RMSE yang lebih rendah dianggap lebih akurat dibandingkan dengan metode yang memiliki RMSE yang lebih besar.
+
+**Kegunaan RMSE**
+RMSE umumnya digunakan dalam konteks regresi untuk mengevaluasi seberapa baik model dapat menghasilkan prediksi yang mendekati nilai sebenarnya. Semakin kecil nilai RMSE, semakin baik model dapat memprediksi nilai aktual.
+
+**Interpretasi RMSE**
+* RMSE memberikan gambaran tentang tingkat kesalahan prediksi model dalam satuan yang sama dengan variabel yang diprediksi.
+* Nilai RMSE yang rendah menunjukkan bahwa model cenderung memberikan prediksi yang dekat dengan nilai sebenarnya.
+* Nilai RMSE yang tinggi menandakan bahwa terdapat ketidakcocokan yang signifikan antara nilai prediksi dan nilai sebenarnya.
+
+Adapun formula dari metrik RMSE adalah sebagai berikut:
   
 ![image](https://github.com/farhanriyandi/Sistem-Rekomendasi/assets/67671418/a2c52689-e846-4544-a739-63425d35c38b)
 
