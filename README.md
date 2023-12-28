@@ -12,13 +12,13 @@ Peningkatan jumlah penonton di bioskop sejalan dengan pertumbuhan produksi film 
 # Business Understanding
 
 ## Problem Statement
-* Bagaimana cara membangun suatu sistem rekomendasi film yang dapat menyesuaikan diri dengan minat atau perilaku pengguna?
-* Bagaimana kinerja dan evaluasi model dalam pengembangan sistem rekomendasi film yang dapat menyesuaikan diri dengan minat atau perilaku pengguna?
+* Bagaimana cara membangun suatu sistem rekomendasi film yang dapat menyesuaikan diri dengan preferensi, minat atau perilaku pengguna?
+* Bagaimana kinerja dan evaluasi model dalam pengembangan sistem rekomendasi film yang dapat menyesuaikan diri dengan preferensi, minat atau perilaku pengguna?
 
 
 ## Goals
-* Mengetahui cara membangun suatu sistem rekomendasi film yang dapat menyesuaikan diri dengan minat atau perilaku pengguna
-* Mengetahi kinerja dan evaluasi model dalam pengembangan sistem rekomendasi film yang dapat menyesuaikan diri dengan minat atau perilaku pengguna
+* Mengetahui cara membangun suatu sistem rekomendasi film yang dapat menyesuaikan diri dengan preferensi, minat atau perilaku pengguna
+* Mengetahi kinerja dan evaluasi model dalam pengembangan sistem rekomendasi film yang dapat menyesuaikan diri dengan preferensi, minat atau perilaku pengguna
 
 ## Solution Statement
 Solusi yang dibuat dapat menggunakan 2 algoritma yaitu:
@@ -321,7 +321,7 @@ Berikut adalah visualisasi metrik dari evaluasi model *collaborative Filtering*:
 Berdasarkan visualisasi metrik diatas didapatkan RMSE: 0.1963 dan validasi RMSE: 0.2030, yang mana sistem telah dikembangkan sudah baik.
 
 # Conclusion
-
+Berdasarkan sistem rekomendasi yang telah dibuat pada proyek ini, pada model *content based filtering* mendapatkan *precision* 100%. Pada model *collaborative Filtering* mendapatkan root mean square error 0.1963 pada data latih dan 0.2030 pada data uji. Hasil dari evaluasi kedua model tersebut sudah baik diharapkan dapat merekomendasikan film sesuai dengan preferensi, minat atau perilaku pengguna. 
 
 # Referensi
 [1]"Tren Positif Film Indonesia," Indonesia.go.id. [Online]. Available: https://indonesia.go.id/ragam/seni/sosial/tren-positif-film-indonesia. [Accessed: 28-Aug-2020].
