@@ -19,8 +19,8 @@ Peningkatan jumlah penonton di bioskop sejalan dengan pertumbuhan produksi film 
 
 ## Solution Statement
 Solusi yang dibuat dapat menggunakan 2 algoritma yaitu:
-* Content Based Filtering
-* Collaborative Filtering
+* Content Based Filtering: Merekomendasikan item yang mirip dengan item yang disukai pengguna di masa lalu.
+* Collaborative Filtering: Bergantung pada pendapat komunitas pengguna. Collaborative Filtering tidak membutuhkan atribut khusus untuk setiap item, berbeda dengan sistem yang berbasis konten.
 
 # Data Understanding
 Dataset yang digunakan dalam proyek ini adalah dataset **Movie Recommender System Dataset** yang didapat dari situs kaggle. Berikut adalah link dataset:
