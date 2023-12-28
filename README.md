@@ -103,17 +103,11 @@ Tidak ada *missing value* pada data hasil gabungan antara rating dan movie berda
 2. Membuat variabel preparation yang berisi dataframe fix_movie kemudian membuang data duplikat pada variabel preparation berdasarkan movieId
      * Sebelum membuang data yang duplikat pada variabel preparation berdasarkan movieId ada 100836 baris dan 6 kolom
      * Setelah membuang data yang duplikat pada variabel preparation berdasarkan movieId ada 9724 baris dan 6 kolom
-3. Mengonversi data series movieId, title, genres dalam bentuk list adapun jumlah data adalah 9724
-4. Membuat dictionary untuk data ‘movie_id’, ‘title’, dan ‘genres’ pada variabel movie_new
+3. Mengonversi data series movieId ke variabel movie_id dalam bentuk list dan jumlah data 9724
+4. Mengonversi data series title ke variabel title dalam bentuk list dan jumlah data 9274,
+5. Mengonversi data series genres ke variabel genres dalam bentuk list dan jumlah data adalah 9724
+6. Membuat dictionary untuk data ‘movie_id’, ‘title’, dan ‘genres’ pada variabel movie_new
 
-*  Mengurutkan movie berdasarkan movieID kemudian memasukkannya ke dalam variabel fix_movie
-*  Membuat variabel preparation yang berisi dataframe fix_movie kemudian mengurutkan berdasarkan movieId
-*  Membuang data duplikat pada variabel preparation
-*  Mengonversi data series ‘movieId’ menjadi dalam bentuk list
-*  Mengonversi data series ‘movieId’ menjadi dalam bentuk list
-*  Mengonversi data series ‘title’ menjadi dalam bentuk list
-*  Mengonversi data series ‘genres’ menjadi dalam bentuk list
-*  Membuat dictionary untuk data ‘movie_id’, ‘title’, dan ‘genres’ pada variabel movie_new
 
 # Modeling and Result
 Proses modeling pada proyek ini menggunakan 2 algoritma yaitu *Content Based Filtering* dan *Collaborative Filtering*. Untuk *Content Based Filtering* merekomendasikan item yang mirip dengan item yang disukai pengguna di masa lalu dan *Collaborative Filtering* dengan memanfaatkan pada tingkat rating dari movie tersebut. 
