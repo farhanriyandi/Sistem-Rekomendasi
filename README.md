@@ -81,7 +81,16 @@ Banyak tipe genre adalah 951
 
 Terdapat 100836 baris data dan tidak adanya *missing value*
 
-![image](https://github.com/farhanriyandi/Sistem-Rekomendasi/assets/67671418/04baf7fe-51ea-4e3d-bd39-dc76a44de8e5)
+| Statistic | userId | movieId | rating | timestamp         |
+|-----------|--------|---------|--------|-------------------|
+| Count     | 100836 | 100836  | 100836 | 1.008360e+05      |
+| Mean      | 326.13 | 19435.30| 3.50   | 1.205946e+09      |
+| Std Dev   | 182.62 | 35530.99| 1.04   | 2.162610e+08      |
+| Min       | 1      | 1       | 0.50   | 8.281246e+08      |
+| 25%       | 177    | 1199    | 3.00   | 1.019124e+09      |
+| Median    | 325    | 2991    | 3.50   | 1.186087e+09      |
+| 75%       | 477    | 8122    | 4.00   | 1.435994e+09      |
+| Max       | 610    | 193609  | 5.00   | 1.537799e+09      |
 
 Dari output di atas, diketahui bahwa nilai maksimum rating adalah 5 dan nilai minimumnya adalah 0.5. Artinya, skala rating berkisar antara 0.5 hingga 5.
 
