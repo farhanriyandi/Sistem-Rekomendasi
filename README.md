@@ -67,7 +67,11 @@ variabel-variabel pada movie-recommendation-data adalah sebagai berikut:
 ### Univariate Exploratory Data Analysis
 **Movie Variable**
 
-![image](https://github.com/farhanriyandi/Sistem-Rekomendasi/assets/67671418/d67163d7-c401-4379-9e53-fc8c9b4e9966)
+| #     | Column   | Non-Null Count  | Dtype  |
+|-------|----------|-----------------|--------|
+| 0     | movieId  | 9742            | int64  |
+| 1     | title    | 9742            | object |
+| 2     | genres   | 9742            | object |
 
 Terdapat 9742 baris data dan tidak adanya *missing value*
 
@@ -77,7 +81,12 @@ Banyak tipe genre adalah 951
 
 **Rating Variable**
 
-![image](https://github.com/farhanriyandi/Sistem-Rekomendasi/assets/67671418/0a832de7-c033-4814-a756-66a7b750661b)
+| #     | Column    | Non-Null Count  | Dtype    |
+|-------|-----------|-----------------|----------|
+| 0     | userId    | 100836          | int64    |
+| 1     | movieId   | 100836          | int64    |
+| 2     | rating    | 100836          | float64  |
+| 3     | timestamp | 100836          | int64    |
 
 Terdapat 100836 baris data dan tidak adanya *missing value*
 
