@@ -69,7 +69,7 @@ variabel-variabel pada movie-recommendation-data adalah sebagai berikut:
 
 Terdapat 9742 baris data dan tidak adanya *missing value*
 
-Banyak tipe genre adalah 951 
+Banyak tipe genre yang unik adalah 951 
 
 **Rating Variable**
 
