@@ -108,7 +108,13 @@ Dapat dilihat bahwa sebagian besar rata-rata peringkat movie tersebar dari ratin
 ## Data Preprocessing
 ### Menggabungkan data rating dan movie berdasarkan movieId
 
-![image](https://github.com/farhanriyandi/Sistem-Rekomendasi/assets/67671418/35496334-d05b-49dd-bb52-c00b9d385e8e)
+| userId | movieId | rating | timestamp  | title                                  | genres                                      |
+|--------|---------|--------|------------|----------------------------------------|---------------------------------------------|
+| 0      | 1       | 4.0    | 964982703  | Toy Story (1995)                       | Adventure|Animation|Children|Comedy|Fantasy |
+| 1      | 1       | 3.0    | 964981247  | Grumpier Old Men (1995)                | Comedy|Romance                              |
+| 2      | 1       | 4.0    | 964982224  | Heat (1995)                            | Action|Crime|Thriller                       |
+| 3      | 1       | 5.0    | 964983815  | Seven (a.k.a. Se7en) (1995)            | Mystery|Thriller                            |
+| 4      | 1       | 5.0    | 964982931  | Usual Suspects, The (1995)             | Crime|Mystery|Thriller                      |
 
 ### Mengecek missing value pada data hasil gabungan antara rating dan movie berdasarkan movieId
 | Fitur      | Jumlah Missing Value |
