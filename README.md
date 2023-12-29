@@ -174,9 +174,7 @@ Content-Based Filtering adalah metode rekomendasi yang menggunakan karakteristik
    
 2. TF-IDF Vectorizer
    
-   Teknik TF-IDF Vectorizer digunakan pada sistem rekomendasi pada proyek ini untuk menemukan representasi fitur penting dari setiap genre. mari lihat matriks tf-idf untuk beberapa title dan kategori genre film.
-   
-   ![image](https://github.com/farhanriyandi/Sistem-Rekomendasi/assets/67671418/340ed156-e05b-43dd-9d1d-b1e0859bac01)
+   Teknik TF-IDF Vectorizer digunakan pada sistem rekomendasi pada proyek ini untuk menemukan representasi fitur penting dari setiap genre. 
 
 4. Perhitungan *Cosine Similarity*
    
