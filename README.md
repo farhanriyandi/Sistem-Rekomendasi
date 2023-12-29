@@ -174,7 +174,9 @@ Content-Based Filtering adalah metode rekomendasi yang menggunakan karakteristik
    
 Berikut adalah movie yang disukai pengguna dimasa lalu:
 
-![image](https://github.com/farhanriyandi/Sistem-Rekomendasi/assets/67671418/3f2c35ec-33c6-4f6a-912d-f4302f2f0711)
+| ID   | Title                          | Genres         |
+|------|--------------------------------|----------------|
+| 5169 | Lover Come Back (1961)         | Comedy|Romance |
 
 Dari gambar diatas pengguna menyukai film Lover Come Back (1961)	dari genre Comedy|Romance. Maka berikut hasil 10 rekomendasi movie kepada pengguna tersebut menggunakan *Content Based Filtering*
 
@@ -235,7 +237,7 @@ Collaborative Filtering adalah metode rekomendasi yang menggunakan informasi dar
 Dikarenakan dataset sudah besar yakni 100836, pembagian rasio data latih dan data uji 80:20 pada data uji sudah memiliki cukup banyak data untuk menguji model memiliki kinerja yang baik atau tidak.
 
 4. Proses *Training*
-   Pelatihan model melibatkan penerapan teknik embedding untuk mengukur kesesuaian antara film dan pengguna. Pada tahap kompilasi, digunakan BinaryCrossentropy       sebagai fungsi kerugian, Optimizer Adam (Adaptive Moment Estimation), dan Root Mean Squared Error (RMSE) sebagai evaluasi metrik. Proses pelatihan model           berlangsung sebanyak 10 epochs dengan penggunaan batch size 64.
+   Pelatihan model melibatkan penerapan teknik embedding untuk mengukur kesesuaian antara film dan pengguna. Pada tahap kompilasi, digunakan BinaryCrossentropy sebagai fungsi kerugian, Optimizer Adam (Adaptive Moment Estimation), dan Root Mean Squared Error (RMSE) sebagai evaluasi metrik. Proses pelatihan model berlangsung sebanyak 10 epochs dengan penggunaan *batch size* 64.
 
 5. Mendapatkan rekomendasi dari model *Collaborative Filtering*:
 Berikut adalah rekomendasi movie berdasarkan rating untuk *users* 42
@@ -285,7 +287,9 @@ Adapun rumus *presicion* adalah sebagai berikut:
 
 Dapat dilihat bahwa rekomendasi movie yang mirip dari Lover Come Back (1961)
 
-![image](https://github.com/farhanriyandi/Sistem-Rekomendasi/assets/67671418/29bded09-8c33-4c6d-b9ba-0a7595dc62dc)
+| ID   | Title                          | Genres         |
+|------|--------------------------------|----------------|
+| 5169 | Lover Come Back (1961)         | Comedy|Romance |
 
 sistem merekomendasikan Top 10 movies yaitu:
 
