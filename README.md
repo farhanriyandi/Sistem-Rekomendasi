@@ -176,7 +176,7 @@ Berikut adalah movie yang disukai pengguna dimasa lalu:
 
 | ID   | Title                          | Genres         |
 |------|--------------------------------|----------------|
-| 5169 | Lover Come Back (1961)         | Comedy|Romance |
+| 5169 | Lover Come Back (1961)         | Comedy,Romance |
 
 Dari gambar diatas pengguna menyukai film Lover Come Back (1961)	dari genre Comedy|Romance. Maka berikut hasil 10 rekomendasi movie kepada pengguna tersebut menggunakan *Content Based Filtering*
 
@@ -289,7 +289,7 @@ Dapat dilihat bahwa rekomendasi movie yang mirip dari Lover Come Back (1961)
 
 | ID   | Title                          | Genres         |
 |------|--------------------------------|----------------|
-| 5169 | Lover Come Back (1961)         | Comedy|Romance |
+| 5169 | Lover Come Back (1961)         | Comedy,Romance |
 
 sistem merekomendasikan Top 10 movies yaitu:
 
