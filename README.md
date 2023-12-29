@@ -168,7 +168,18 @@ Content-Based Filtering adalah metode rekomendasi yang menggunakan karakteristik
    
    Dengan teknik *Cosine Similarity* menghitung derajat kesamaan (similarity degree) antar film. Kalkulasi similarity dilakukan dengan function [cosine_similarity](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.pairwise.cosine_similarity.html) pada *library* sklearn. Cosine similarity mengukur kesamaan antara dua vektor dan menentukan apakah kedua vektor tersebut menunjuk ke arah yang sama. Ia menghitung sudut cosinus antara dua vektor. Semakin kecil sudut cosinus, semakin besar nilai *cosine similarity*. Hasil dari perhitungan cosine similarity akan menghasilkan matriks kesamaan yang dapat divisualisasikan melalui konversi ke bentuk dataframe seperti berikut:
 
-![image](https://github.com/farhanriyandi/Sistem-Rekomendasi/assets/67671418/0ee530f2-5930-48ec-990e-456d4fbd7321)
+| Title                                       | River, The (1984) | Hommage à Zgougou (et salut à Sabine Mamou) (2002) | Cocoanuts, The (1929) | Company Man (2000) | Inkwell, The (1994) |
+|---------------------------------------------|-------------------|---------------------------------------------------|------------------------|---------------------|---------------------|
+| Hellraiser III: Hell on Earth (1992)         | 0.000000          | 0.0                                               | 0.000000               | 0.000000            | 0.000000            |
+| Man of Steel (2013)                         | 0.000000          | 0.0                                               | 0.000000               | 0.000000            | 0.000000            |
+| Elizabethtown (2005)                        | 0.466539          | 0.0                                               | 0.205750               | 0.504636            | 0.687253            |
+| Revenge of the Green Dragons (2014)         | 0.403822          | 0.0                                               | 0.000000               | 0.000000            | 0.274133            |
+| Who Killed the Electric Car? (2006)         | 0.000000          | 1.0                                               | 0.000000               | 0.000000            | 0.000000            |
+| Snow White and the Seven Dwarfs (1937)     | 0.228181          | 0.0                                               | 0.504719               | 0.000000            | 0.154900            |
+| Rocker, The (2008)                          | 0.000000          | 0.0                                               | 0.407720               | 1.000000            | 0.734280            |
+| Boyz N the Hood (1991)                      | 0.503700          | 0.0                                               | 0.000000               | 0.000000            | 0.341935            |
+| Faust (1926)                                | 0.350226          | 0.0                                               | 0.000000               | 0.000000            | 0.237749            |
+| Scent of a Woman (1992)                     | 1.000000          | 0.0                                               | 0.000000               | 0.000000            | 0.678847            |
 
 4. Mendapatkan Rekomendasi dari model *Content Based Filtering*:
    
