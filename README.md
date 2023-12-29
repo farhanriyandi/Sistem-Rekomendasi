@@ -75,7 +75,7 @@ variabel-variabel pada movie-recommendation-data adalah sebagai berikut:
 
 Terdapat 9742 baris data dan tidak adanya *missing value*
 
-![image](https://github.com/farhanriyandi/Sistem-Rekomendasi/assets/67671418/e43fa19e-696e-4be0-be38-47e32383a87b)
+![image](https://github.com/farhanriyandi/Sistem-Rekomendasi/assets/67671418/2e53557f-a457-4a0d-bcc8-4d0983189e7e)
 
 Banyak tipe genre adalah 951 
 
