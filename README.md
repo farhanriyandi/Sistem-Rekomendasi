@@ -95,7 +95,9 @@ Terdapat 100836 baris data dan tidak adanya *missing value*
 
 Dari output di atas, diketahui bahwa nilai maksimum rating adalah 5 dan nilai minimumnya adalah 0.5. Artinya, skala rating berkisar antara 0.5 hingga 5.
 
-![image](https://github.com/farhanriyandi/Sistem-Rekomendasi/assets/67671418/57215e3a-682e-4e29-bfa9-c0fa8f482f93)
+| Jumlah userId | Jumlah movieId  | Jumlah data rating |
+|---------------|-----------------|--------------------|
+| 610           | 9724            | 100836             |
 
 Pengguna yang memberikan rating 610, jumlah movie 9724, dan jumlah rating adalah 100836.
 
