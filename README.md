@@ -9,7 +9,7 @@ Pasar industri perfilman, baik di tingkat internasional maupun domestik, terus m
 
 Peningkatan jumlah penonton di bioskop sejalan dengan pertumbuhan produksi film yang semakin banyak. Ragam film dengan berbagai alur cerita dan genre baik dari dalam negeri maupun luar negeri, memeriahkan industri perfilman. Namun, melimpahnya produksi film membuat calon penonton kewalahan dan mengalami kesulitan dalam memilih film untuk ditonton. Proses pencarian film menjadi lebih memakan waktu, dan beberapa orang menggunakan fitur pencarian di situs-situs tertentu untuk membantu mereka dalam membuat keputusan. Karena setiap orang memiliki selera yang berbeda, mereka cenderung memilih film yang serupa dengan yang mereka sukai[3]. Karena itu, tujuan dari proyek *machine learning* ini adalah mengembangkan sebuah model machine learning yang dapat digunakan dalam sistem rekomendasi film. 
 
-Sistem rekomendasi menjadi salah satu solusi yang sangat efektif dalam membantu penonton mendapatkan informasi yang relevan mengenai film. Dalam dunia yang dipenuhi dengan berbagai pilihan film dari berbagai genre dan jenis, mencari tahu film mana yang sesuai dengan preferensi pribadi bisa menjadi tugas yang menantang. Oleh karena itu, sistem rekomendasi hadir sebagai solusi cerdas yang mengubah cara kita mengeksplorasi dan menemukan konten yang sesuai.
+Sistem rekomendasi menjadi salah satu solusi yang sangat efektif dalam membantu penonton mendapatkan informasi yang relevan mengenai film. Dalam dunia yang dipenuhi dengan berbagai pilihan film dari berbagai genre dan jenis, mencari tahu film mana yang sesuai dengan preferensi pribadi bisa menjadi tugas yang menantang. Oleh karena itu, sistem rekomendasi hadir sebagai solusi cerdas yang mengubah cara untuk mengeksplorasi dan menemukan konten yang sesuai.
 
 Salah satu keunggulan utama sistem rekomendasi adalah kemampuannya untuk memahami dan mempelajari preferensi individu. Dengan menganalisis riwayat penonton, peringkat film sebelumnya, dan pola perilaku pengguna, sistem ini dapat memberikan rekomendasi yang disesuaikan dengan selera unik setiap individu. Ini tidak hanya memastikan bahwa penonton mendapatkan film yang sesuai dengan keinginan mereka, tetapi juga membuka pintu untuk mengeksplorasi genre atau direktor baru yang mungkin tidak pernah mereka pertimbangkan sebelumnya.
 
@@ -174,7 +174,7 @@ Content-Based Filtering adalah metode rekomendasi yang menggunakan karakteristik
    
 2. TF-IDF Vectorizer
    
-   Teknik TF-IDF Vectorizer digunakan pada sistem rekomendasi pada proyek ini untuk menemukan representasi fitur penting dari setiap genre. mari kita lihat matriks tf-idf untuk beberapa   title dan kategori genre film.
+   Teknik TF-IDF Vectorizer digunakan pada sistem rekomendasi pada proyek ini untuk menemukan representasi fitur penting dari setiap genre. mari lihat matriks tf-idf untuk beberapa title dan kategori genre film.
    
    ![image](https://github.com/farhanriyandi/Sistem-Rekomendasi/assets/67671418/340ed156-e05b-43dd-9d1d-b1e0859bac01)
 
